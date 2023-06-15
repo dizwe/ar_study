@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		2D95EE672A35FF3700056817 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95EE662A35FF3700056817 /* AppDelegate.swift */; };
 		2D95EE692A35FF3700056817 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95EE682A35FF3700056817 /* ContentView.swift */; };
-		2D95EE6B2A35FF3700056817 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2D95EE6A2A35FF3700056817 /* Experience.rcproject */; };
 		2D95EE6D2A35FF3B00056817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D95EE6C2A35FF3B00056817 /* Assets.xcassets */; };
 		2D95EE702A35FF3B00056817 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D95EE6F2A35FF3B00056817 /* Preview Assets.xcassets */; };
 		2D95EE7A2A35FF3B00056817 /* AR_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95EE792A35FF3B00056817 /* AR_TestTests.swift */; };
 		2D95EE842A35FF3B00056817 /* AR_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95EE832A35FF3B00056817 /* AR_TestUITests.swift */; };
 		2D95EE862A35FF3B00056817 /* AR_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95EE852A35FF3B00056817 /* AR_TestUITestsLaunchTests.swift */; };
+		2D95EE932A3602BA00056817 /* golf.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2D95EE922A3602BA00056817 /* golf.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		2D95EE632A35FF3700056817 /* AR_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AR_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D95EE662A35FF3700056817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D95EE682A35FF3700056817 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2D95EE6A2A35FF3700056817 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		2D95EE6C2A35FF3B00056817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D95EE6F2A35FF3B00056817 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D95EE752A35FF3B00056817 /* AR_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AR_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +45,7 @@
 		2D95EE7F2A35FF3B00056817 /* AR_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AR_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D95EE832A35FF3B00056817 /* AR_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_TestUITests.swift; sourceTree = "<group>"; };
 		2D95EE852A35FF3B00056817 /* AR_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2D95EE922A3602BA00056817 /* golf.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = golf.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			children = (
 				2D95EE662A35FF3700056817 /* AppDelegate.swift */,
 				2D95EE682A35FF3700056817 /* ContentView.swift */,
-				2D95EE6A2A35FF3700056817 /* Experience.rcproject */,
+				2D95EE922A3602BA00056817 /* golf.rcproject */,
 				2D95EE6C2A35FF3B00056817 /* Assets.xcassets */,
 				2D95EE6E2A35FF3B00056817 /* Preview Content */,
 			);
@@ -260,9 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D95EE932A3602BA00056817 /* golf.rcproject in Sources */,
 				2D95EE692A35FF3700056817 /* ContentView.swift in Sources */,
 				2D95EE672A35FF3700056817 /* AppDelegate.swift in Sources */,
-				2D95EE6B2A35FF3700056817 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +421,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AR_Test/Preview Content\"";
+				DEVELOPMENT_TEAM = 963582VL6Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -451,6 +452,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AR_Test/Preview Content\"";
+				DEVELOPMENT_TEAM = 963582VL6Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
